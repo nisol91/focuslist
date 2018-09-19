@@ -25,8 +25,8 @@
   font-weight: 900;
 }
 .r-icons p {
-  color: #5a8ebf;
-  font-size: 13px;
+  color: white;
+  font-size: 11px;
   margin-top: 15px;
 }
 .c-middle p,.c-down p {
@@ -67,7 +67,7 @@
   margin-top: 30px;
 }
 /* ------------------------------- */
-.c-top {
+.col-blue {
   background: #0f386d;
 }
 .r-top {
@@ -83,6 +83,16 @@
   padding-top: 30px;
   padding-left: 30px;
   padding-bottom: 50px;
+  opacity: .3;
+}
+.i-phone {
+  max-width: 50px;
+}
+.m-ac {
+  max-width: 100px;
+}
+.r-icons:hover {
+  opacity: .99;
 }
 .r-icons .i-phone {
   width: 60%;
@@ -92,6 +102,7 @@
 }
 .cl-ock {
 padding-top: 30px;
+max-width: 150px;
 }
 .foto-dx {
   width: 90%;
@@ -99,7 +110,7 @@ padding-top: 30px;
 .r-mid {
   margin-top: 80px;
 }
-.c-middown {
+.col-lightblue {
   background: #2a4b77;
 }
 .r-fot, .r-fotdown {
@@ -108,4 +119,92 @@ padding-top: 30px;
 .f-ooter {
   background: #113462;
   padding-bottom: 30px;
+}
+@media (max-width: 576px) {
+  #rmid-sx {
+    margin-top: 10px;
+  }
+  #rmid-dx {
+    margin-top: 10px;
+  }
+  .r-mid {
+    margin-top: 10px;
+  }
+  .c-middle h1 {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  .c-middown h1 {
+    font-size: 28px;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .c-down h1 {
+    margin-top: 20px;
+  }
+  .r-tri p {
+    margin-bottom: 40px;
+  }
+  .r-fot, .r-fotdown{
+    margin: 0;
+  }
+  .r-icons {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .r-icons div {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .r-fotdown p {
+    display: none;
+  }
+  .r-fot .list-resp {
+    color: white;
+    margin-top: 5px;
+  }
+}
+@media (min-width: 768px) {
+  .list-resp {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .c-top h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .c-top h3 {
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .r-icons {
+    margin-top: 50px;
+  }
+  .r-icons p {
+    font-size: 12px;
+  }
+  .r-icons div {
+    margin: auto;
+  }
+  .r-mid {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+  #rmid-sx {
+    margin-top: 30px;
+  }
+  #rmid-dx {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .r-icons p {
+    font-size: 8px;
+  }
 }
